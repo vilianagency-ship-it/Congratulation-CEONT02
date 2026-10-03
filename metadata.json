@@ -1,0 +1,6 @@
+{
+  "name": "CEONT02 - Chúc Mừng Ban Cán Sự Nhận Nhiệm Vụ",
+  "description": "Poster điện tử tương tác chúc mừng Ban cán sự lớp CEO NT02 - Group Quản Trị & Khởi Nghiệp chính thức nhận nhiệm vụ với 10 thành viên lãnh đạo xuất sắc.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
