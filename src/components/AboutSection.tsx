@@ -4,7 +4,7 @@ import { ExternalLink, Award, Users, BookOpen, HeartHandshake } from './icons';
 
 export const AboutSection: React.FC = () => {
   return (
-    <footer id="about-group" className="pt-12 pb-56 sm:pb-72 md:pb-96 lg:pb-[28rem] bg-gradient-to-b from-slate-950/70 via-slate-950/20 to-transparent border-t border-slate-700/40 text-slate-100">
+    <footer id="about-group" className="py-12 bg-gradient-to-b from-slate-950/70 via-slate-950/90 to-slate-950 border-t border-slate-700/40 text-slate-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Top Grid: Mission & Connection without redundant logos */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-10">
@@ -80,13 +80,6 @@ export const AboutSection: React.FC = () => {
             >
               Sổ Lưu Bút
             </a>
-          </div>
-        </div>
-
-        {/* Vùng ngắm trọn vẹn gương mặt đại gia đình CEO NT02 ở bức ảnh nền */}
-        <div className="mt-16 sm:mt-24 text-center">
-          <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-slate-900/60 border border-amber-400/50 shadow-[0_0_24px_rgba(245,158,11,0.35)] text-amber-300 text-xs sm:text-sm font-bold backdrop-blur-md">
-            <span>✨ Đại Gia Đình CEO NT02 · Tập Thể Lãnh Đạo Tiên Phong &amp; Gắn Kết</span>
           </div>
         </div>
       </div>
