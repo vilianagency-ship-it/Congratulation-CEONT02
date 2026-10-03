@@ -48,7 +48,7 @@ export default function App() {
   });
 
   const [customBgUrl, setCustomBgUrl] = useState<string | null>(() => {
-    return localStorage.getItem('ceont02_custom_bg') || '/members/bg%201.jfif';
+    return '/3.png';
   });
 
   // Default theme is 'white' as requested: Nền trắng hoàn toàn nằm trên nền sân khấu
