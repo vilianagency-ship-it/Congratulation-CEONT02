@@ -202,23 +202,23 @@ const ExecutiveCard: React.FC<ExecutiveCardProps> = ({
       </div>
 
       {/* Text Info on Clean White Canvas */}
-      <div className="p-4 sm:p-5 flex flex-col justify-between flex-1 bg-white border-t border-slate-100 z-10">
+      <div className="p-3.5 sm:p-4.5 flex flex-col justify-between flex-1 bg-white border-t border-slate-100 z-10">
         <div>
-          <h3 className="text-xl sm:text-2xl font-black text-slate-950 group-hover:text-[#1C58A4] transition-colors tracking-tight line-clamp-1">
+          <h3 className="uppercase text-base sm:text-lg lg:text-base xl:text-lg font-black text-slate-950 group-hover:text-[#1C58A4] transition-colors tracking-tight leading-snug min-h-[2.75rem] flex items-center">
             {member.name}
           </h3>
 
-          <p className="mt-2 text-sm sm:text-base text-slate-950 line-clamp-2 font-bold flex items-center gap-1.5 leading-snug">
-            <Briefcase className="w-4 h-4 text-[#1C58A4] shrink-0" />
+          <p className="mt-1.5 text-xs sm:text-sm text-slate-950 line-clamp-2 font-bold flex items-center gap-1.5 leading-snug">
+            <Briefcase className="w-3.5 h-3.5 text-[#1C58A4] shrink-0" />
             <span className="truncate">{member.companyRole}</span>
           </p>
-          <p className="text-xs sm:text-sm text-slate-700 line-clamp-2 mt-1.5 flex items-center gap-1.5 font-semibold leading-relaxed">
-            <Building className="w-4 h-4 text-amber-600 shrink-0" />
+          <p className="text-xs sm:text-[13px] text-slate-700 line-clamp-2 mt-1 flex items-center gap-1.5 font-semibold leading-relaxed">
+            <Building className="w-3.5 h-3.5 text-amber-600 shrink-0" />
             <span className="truncate">{member.company}</span>
           </p>
         </div>
 
-        <div className="mt-3.5 pt-3 border-t border-slate-200 flex items-center justify-between text-xs sm:text-sm text-slate-700 font-medium">
+        <div className="mt-3 pt-2.5 border-t border-slate-200 flex items-center justify-between text-xs text-slate-700 font-medium">
           <span className="italic truncate max-w-full">&ldquo;{member.quote}&rdquo;</span>
         </div>
       </div>

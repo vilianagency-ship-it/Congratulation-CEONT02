@@ -100,7 +100,7 @@ export const MemberModal: React.FC<MemberModalProps> = ({
             </div>
 
             {/* Member Name & Official Role */}
-            <h2 className="text-2xl md:text-3xl font-extrabold text-white mt-1.5 tracking-tight">
+            <h2 className="uppercase text-2xl md:text-3xl font-extrabold text-white mt-1.5 tracking-tight">
               {member.name}
             </h2>
             <div className="flex items-center gap-2 mt-1 text-sm font-semibold text-amber-400">

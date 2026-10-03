@@ -69,7 +69,7 @@ export const EditorialLayout: React.FC<EditorialLayoutProps> = ({
               {/* Editorial Typography */}
               <div className="pt-3 pb-1 flex flex-col flex-1 justify-between">
                 <div>
-                  <h3 className="font-serif font-bold text-base text-white group-hover:text-blue-300 transition-colors line-clamp-1">
+                  <h3 className="font-serif font-bold text-base text-white group-hover:text-blue-300 transition-colors leading-snug line-clamp-2 min-h-[2.5rem] flex items-center">
                     {member.name}
                   </h3>
                   <p className="text-xs font-serif italic text-amber-300 mt-0.5 line-clamp-1">

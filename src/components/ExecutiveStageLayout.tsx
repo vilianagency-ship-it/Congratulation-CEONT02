@@ -81,23 +81,23 @@ export const ExecutiveStageLayout: React.FC<ExecutiveStageLayoutProps> = ({
               </div>
 
               {/* Leader Credentials - Font chữ to, đậm nét, siêu dễ đọc */}
-              <div className="p-4 sm:p-5 flex flex-col justify-between flex-1 relative z-10 bg-slate-950/95 border-t border-slate-700/80">
+              <div className="p-3.5 sm:p-4.5 flex flex-col justify-between flex-1 relative z-10 bg-slate-950/95 border-t border-slate-700/80">
                 <div>
-                  <h3 className="text-xl sm:text-2xl font-black text-white group-hover:text-blue-300 transition-colors tracking-tight line-clamp-1">
+                  <h3 className="uppercase text-base sm:text-lg lg:text-base xl:text-lg font-black text-white group-hover:text-blue-300 transition-colors tracking-tight leading-snug min-h-[2.75rem] flex items-center">
                     {member.name}
                   </h3>
 
-                  <p className="mt-2 text-sm sm:text-base text-white line-clamp-2 font-bold flex items-center gap-1.5 leading-snug">
-                    <Briefcase className="w-4 h-4 text-blue-400 shrink-0" />
+                  <p className="mt-1.5 text-xs sm:text-sm text-white line-clamp-2 font-bold flex items-center gap-1.5 leading-snug">
+                    <Briefcase className="w-3.5 h-3.5 text-blue-400 shrink-0" />
                     <span className="truncate">{member.companyRole}</span>
                   </p>
-                  <p className="text-xs sm:text-sm text-slate-100 line-clamp-2 mt-1.5 flex items-center gap-1.5 font-medium leading-relaxed">
-                    <Building className="w-4 h-4 text-amber-400 shrink-0" />
+                  <p className="text-xs sm:text-[13px] text-slate-100 line-clamp-2 mt-1 flex items-center gap-1.5 font-medium leading-relaxed">
+                    <Building className="w-3.5 h-3.5 text-amber-400 shrink-0" />
                     <span className="truncate">{member.company}</span>
                   </p>
                 </div>
 
-                <div className="mt-3.5 pt-3 border-t border-slate-700/80 flex items-center justify-between text-xs sm:text-sm text-white">
+                <div className="mt-3 pt-2.5 border-t border-slate-700/80 flex items-center justify-between text-xs text-white">
                   <span className="italic truncate max-w-full text-slate-200 font-medium">&ldquo;{member.quote}&rdquo;</span>
                 </div>
               </div>

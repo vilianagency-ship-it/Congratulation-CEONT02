@@ -4,7 +4,7 @@ export const INITIAL_BOARD_MEMBERS: BoardMember[] = [
   {
     id: 'member-1',
     order: 1,
-    name: 'Đinh Quý Trọng Nhân',
+    name: 'ĐINH QUÝ TRỌNG NHÂN',
     role: 'Lớp Trưởng CEO NT02',
     roleShort: 'Lớp Trưởng',
     company: 'Công Ty TNHH Tin Học TIN',
@@ -21,7 +21,7 @@ export const INITIAL_BOARD_MEMBERS: BoardMember[] = [
   {
     id: 'member-2',
     order: 2,
-    name: 'Lê Ngọc Quyền',
+    name: 'LÊ NGỌC QUYỀN',
     role: 'Lớp Phó Thường Trực CEO NT02',
     roleShort: 'Lớp Phó Thường Trực',
     company: 'Tập Đoàn Thương Mại & Vận Hành Toàn Cầu',
@@ -38,7 +38,7 @@ export const INITIAL_BOARD_MEMBERS: BoardMember[] = [
   {
     id: 'member-3',
     order: 3,
-    name: 'Cao Minh Huy',
+    name: 'CAO MINH HUY',
     role: 'Lớp Phó Công Nghệ CEO NT02',
     roleShort: 'Lớp Phó Công Nghệ',
     company: 'Tech Solutions & AI Automation Hub',
@@ -55,7 +55,7 @@ export const INITIAL_BOARD_MEMBERS: BoardMember[] = [
   {
     id: 'member-4',
     order: 4,
-    name: 'Phan Tuấn Anh',
+    name: 'PHAN TUẤN ANH',
     role: 'Lớp Phó Truyền Thông CEO NT02',
     roleShort: 'Lớp Phó Truyền Thông',
     company: 'Creative Media & Brand Strategy Group',
@@ -72,7 +72,7 @@ export const INITIAL_BOARD_MEMBERS: BoardMember[] = [
   {
     id: 'member-5',
     order: 5,
-    name: 'Cao Thị Thuý',
+    name: 'CAO THỊ THUÝ',
     role: 'Lớp Phó Tài Chính CEO NT02',
     roleShort: 'Lớp Phó Tài Chính',
     company: 'Capital Financial Advisory & Investment',
@@ -89,7 +89,7 @@ export const INITIAL_BOARD_MEMBERS: BoardMember[] = [
   {
     id: 'member-6',
     order: 6,
-    name: 'Nguyễn Thị Khánh Trang',
+    name: 'NGUYỄN THỊ KHÁNH TRANG',
     role: 'Lớp Phó Giao Thương CEO NT02',
     roleShort: 'Lớp Phó Giao Thương',
     company: 'Global Trade & Business Networking Corp',
@@ -106,7 +106,7 @@ export const INITIAL_BOARD_MEMBERS: BoardMember[] = [
   {
     id: 'member-7',
     order: 7,
-    name: 'Diễm Phúc',
+    name: 'DIỄM PHÚC',
     role: 'Lớp Phó Thành Viên CEO NT02',
     roleShort: 'Lớp Phó Thành Viên',
     company: 'HR Capital & Executive Development',
@@ -123,7 +123,7 @@ export const INITIAL_BOARD_MEMBERS: BoardMember[] = [
   {
     id: 'member-8',
     order: 8,
-    name: 'Hoàng Châu',
+    name: 'HOÀNG CHÂU',
     role: 'Lớp Phó Sự Kiện CEO NT02',
     roleShort: 'Lớp Phó Sự Kiện',
     company: 'Luxury Event & Hospitality Vietnam',
@@ -140,7 +140,7 @@ export const INITIAL_BOARD_MEMBERS: BoardMember[] = [
   {
     id: 'member-9',
     order: 9,
-    name: 'Lê Thị Phương Ly',
+    name: 'LÊ THỊ PHƯƠNG LY',
     role: 'Lớp Phó Học Tập CEO NT02',
     roleShort: 'Lớp Phó Học Tập',
     company: 'Viện Quản Trị & Đào Tạo Lãnh Đạo Cao Cấp',
@@ -157,7 +157,7 @@ export const INITIAL_BOARD_MEMBERS: BoardMember[] = [
   {
     id: 'member-10',
     order: 10,
-    name: 'Nguyễn Mai Huyền Trang',
+    name: 'NGUYỄN MAI HUYỀN TRANG',
     role: 'Lớp Phó Hậu Cần CEO NT02',
     roleShort: 'Lớp Phó Hậu Cần',
     company: 'EcoLiving Services & Hospitality Management',

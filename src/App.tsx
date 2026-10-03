@@ -25,11 +25,11 @@ import { launchOpeningFireworks, launchMemberCelebrationFireworks } from './util
 
 export default function App() {
   const [members, setMembers] = useState<BoardMember[]>(() => {
-    const saved = localStorage.getItem('ceont02_members_v5');
+    const saved = localStorage.getItem('ceont02_members_v6');
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
-        if (parsed && Array.isArray(parsed) && parsed.length === 10 && parsed[0]?.name === 'Đinh Quý Trọng Nhân') {
+        if (parsed && Array.isArray(parsed) && parsed.length === 10 && parsed[0]?.name === 'ĐINH QUÝ TRỌNG NHÂN') {
           return parsed;
         }
       } catch {
@@ -40,7 +40,8 @@ export default function App() {
     try {
       localStorage.removeItem('ceont02_members');
       localStorage.removeItem('ceont02_members_v4');
-      localStorage.setItem('ceont02_members_v5', JSON.stringify(INITIAL_BOARD_MEMBERS));
+      localStorage.removeItem('ceont02_members_v5');
+      localStorage.setItem('ceont02_members_v6', JSON.stringify(INITIAL_BOARD_MEMBERS));
     } catch {
       // ignore
     }
@@ -117,7 +118,7 @@ export default function App() {
   const handleUpdateAvatar = (memberId: string, newUrl: string) => {
     const updated = members.map(m => m.id === memberId ? { ...m, avatar: newUrl } : m);
     setMembers(updated);
-    localStorage.setItem('ceont02_members_v5', JSON.stringify(updated));
+    localStorage.setItem('ceont02_members_v6', JSON.stringify(updated));
     if (selectedMember && selectedMember.id === memberId) {
       setSelectedMember(prev => prev ? { ...prev, avatar: newUrl } : null);
     }
@@ -125,13 +126,13 @@ export default function App() {
 
   const handleResetAllAvatars = () => {
     setMembers(INITIAL_BOARD_MEMBERS);
-    localStorage.removeItem('ceont02_members_v5');
+    localStorage.removeItem('ceont02_members_v6');
   };
 
   const handleSaveMember = (updatedMember: BoardMember) => {
     const updated = members.map(m => m.id === updatedMember.id ? updatedMember : m);
     setMembers(updated);
-    localStorage.setItem('ceont02_members_v5', JSON.stringify(updated));
+    localStorage.setItem('ceont02_members_v6', JSON.stringify(updated));
     if (selectedMember && selectedMember.id === updatedMember.id) {
       setSelectedMember(updatedMember);
     }

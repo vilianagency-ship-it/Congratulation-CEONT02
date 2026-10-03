@@ -86,7 +86,7 @@ export const PillLayout: React.FC<PillLayoutProps> = ({
               {/* Capsule Bottom Info */}
               <div className="pt-4 pb-3 px-3 text-center flex flex-col flex-1 justify-between">
                 <div>
-                  <h4 className="font-bold text-white group-hover:text-indigo-300 transition-colors text-sm line-clamp-1">
+                  <h4 className="font-bold text-white group-hover:text-indigo-300 transition-colors text-sm sm:text-base leading-snug line-clamp-2 min-h-[2.25rem] flex items-center justify-center">
                     {member.name}
                   </h4>
                   <p className="text-[11px] font-medium text-amber-300/90 mt-0.5 line-clamp-1">
